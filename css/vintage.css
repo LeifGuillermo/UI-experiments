@@ -1,0 +1,48 @@
+:root {
+  --desert-sand: #ddbea9;
+  --antique-brass: #cb997e;
+  --champagne-pink: #ffe8d6;
+  --ash-gray: #b7b7a4;
+  --artichoke: #a5a58d;
+  --ebony: #6b705c;
+  /* background colors */
+  --bg-color: var(--ebony);
+  --bg-color2: var(--ebony);
+
+  /* foreground colors */
+  --fg-color1: var(--champagne-pink);
+  --fg-color2: var(--champagne-pink);
+
+  /* shadow colors */
+  --shadow-color: var(--ash-gray);
+
+  /* highlight colors */
+  --highlight-color: var(--antique-brass);
+}
+
+@font-face {
+  font-family: Modak-Regular;
+  src: url(../assets/fonts/vintage/Modak/Modak-Regular.ttf);
+  font-family: Monoton;
+  src: url(../assets/fonts/vintage/Monoton/Monoton-Regular.ttf);
+  font-family: Ultra;
+  src: url(../assets/fonts/vintage/Ultra/Ultra-Regular.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Main Styling */
+html,
+body {
+  font-family: 'Monoton', 'Modak-Regular';
+  line-height: 1.7em;
+}
+
+h1 {
+  font-family: 'Ultra', 'Monoton', 'Modak-Regular';
+  line-height: 1.7em;
+}

@@ -1,0 +1,63 @@
+:root {
+  --ivory: #F6F7EB;
+  --cinnabar: #E94F37;
+  --onyx: #393E41;
+  --green-blue-crayola: #3F88C5;
+  --keppel: #44BBA4;
+  --copper: #BA7B43;
+  /* background colors */
+  --bg-color: var(--ivory);
+  --bg-color2: var(--green-blue-crayola);
+
+  /* foreground colors */
+  --fg-color1: var(--onyx);
+  --fg-color2: var(--onyx);
+
+  /* shadow colors */
+  --shadow-color: var(--copper);
+
+  /* highlight colors */
+  --highlight-color: var(--keppel);
+}
+
+@font-face {
+  font-family: Roboto-Regular;
+  src: url(../assets/fonts/contemporary/Roboto/Roboto-Regular.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Main Styling */
+html,
+body {
+  font-family: 'Roboto-Regular';
+  line-height: 1.7em;
+}
+
+h1 {
+  font-family: 'Roboto-Regular';
+  line-height: 1.7em;
+}
+
+.card {
+  padding: 10px;
+  border: 2px solid black;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  box-shadow: -3px 3px 8px var(--onyx);
+  background-color: var(--onyx);
+  color: var(--ivory)
+}
+
+a:link {
+  color: var(--keppel)
+}
+
+a:visited {
+  color: var(--ivory);
+}

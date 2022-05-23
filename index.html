@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+
+  <link rel='stylesheet' id="pageStyle" type='text/css' media='screen' href='./css/contemporary.css'>
+  <link rel='stylesheet' type='text/css' media='screen' href='./css/main.css'>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script language="Javascript" type="text/javascript" src='js/main.js'></script>
+
+  <title>UI Experiments <span></span></title>
+</head>
+
+<body>
+
+
+  <header class="center">
+    <h1 class="center">The theme is <span id="pageHeaderTheme">contemporary</span></h1>
+    Use the radio buttons to toggle different themes.
+  </header>
+
+  <section id="theme-selection-section" class="themedSection">
+    <h2 class="center">Select a theme</h2>
+    <div id="theme-selection-options">
+      <input type="radio" id="contemporaryRadioButton" name="selectStyleRadioButton" value="contemporary"
+        checked=true />
+      <label for="contemporaryRadioButton">Contemporary</label>
+      <br>
+      <input type="radio" id="vintageRadioButton" name="selectStyleRadioButton" value="vintage" />
+      <label for="vintageRadioButton">Vintage</label>
+    </div>
+  </section>
+
+  <section>
+    <article>The article HTML element represents a self-contained composition in a document, page, application, or site,
+      which is intended to be independently distributable or reusable (e.g., in syndication). Examples include: a forum
+      post, a magazine or newspaper article, or a blog entry, a product card, a user-submitted comment, an interactive
+      widget or gadget, or any other independent item of content.</article>
+  </section>
+
+  <nav>
+    <ul>
+      <li><a href="">Home</a></li>
+    </ul>
+    <p>
+      The &lt;nav&gt; HTML element represents a section of a page whose purpose is to provide navigation links, either
+      within the
+      current document or to other documents. Common examples of navigation sections are menus, tables of contents, and
+      indexes.
+    </p>
+  </nav>
+
+  <aside class="card"> The aside HTML element represents a portion of a document whose content is only indirectly
+    related to the
+    document's main content. Asides are frequently presented as sidebars or call-out boxes.</aside>
+
+
+
+  <section id="image-section" class="themedSection center card">
+    <h2 hidden="true">Thematic Images</h2>
+    <div id="vintage-images" class="images vintage" hidden="true">
+      <!-- Remote Images -->
+      <img src="https://source.unsplash.com/400x400/?vintage" alt="Image from source.unsplash.com" width="400">
+      <img src="https://source.unsplash.com/400x400/?antiquated" alt="Image from source.unsplash.com" width="400">
+    </div>
+    <div id="contemporary-images" class="images contemporary">
+      <!-- Remote Images -->
+      <img src="https://source.unsplash.com/400x400/?contemporary" alt="Image from source.unsplash.com" width="400">
+      <img src="https://source.unsplash.com/400x400/?modern" alt="Image from source.unsplash.com" width="400">
+    </div>
+    <p>Images from <a href="https://source.unsplash.com" target="_blank">source.unsplash.com</a></p>
+  </section>
+
+  <section id="info-section" class="themedSection">
+    <h2>What is a section?</h2>
+    The &lt;section&gt; HTML element represents a generic standalone section of a document, which doesn't have a more
+    specific semantic element to represent it. Sections should always have a heading, with very few exceptions.
+  </section>
+
+
+
+  <footer class="card">
+    Element text was taken from <a
+      href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element#content_sectioning">developer.mozilla.org</a>
+    <br>
+    Created by: Leif Guillermo
+    <br>
+    <address>Albuquerque, NM</address>
+  </footer>
+
+</body>
+
+</html>

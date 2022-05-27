@@ -4,13 +4,10 @@ body {
   color: var(--fg-color2);
   background-color: var(--bg-color2);
 
-  line-height: 1.7em;
-  margin-left: 2em;
-  margin-right: 2em;
-}
+  margin: 0;
+  padding: 0;
 
-nav>ul {
-  list-style: none
+  overflow-x: hidden;
 }
 
 #pageHeaderTheme {
@@ -18,7 +15,7 @@ nav>ul {
 }
 
 #theme-selection-section {
-  position: fixed;
+  position: absolute;
   top: 0;
   right: 0;
   width: 363px;
@@ -26,6 +23,12 @@ nav>ul {
   border-radius: 8px;
   box-shadow: -3px 3px 12px black;
   background-color: var(--bg-color);
+}
+
+.movable {
+  position: absolute;
+  cursor: move;
+  z-index: 10;
 }
 
 #theme-selection-options {

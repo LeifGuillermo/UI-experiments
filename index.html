@@ -50,43 +50,43 @@
         allowfullscreen></iframe>
     </div>
 
-    <div class="livestream vintage center" hidden="true">
-      <iframe id="vintage-livestream" width="560" height="315" src="https://www.youtube-nocookie.com/embed/2gO1v2GPMFk"
-        title="YouTube video player" frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen></iframe>
+    <div id="livestream-outer" class="livestream vintage center" hidden="true">
+      <div id="livestream-inner">
+        <iframe id="vintage-livestream" width="560" height="315"
+          src="https://www.youtube-nocookie.com/embed/2gO1v2GPMFk" title="YouTube video player" frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+      </div>
     </div>
   </aside>
 
   <section id="image-section" class="themedSection secondary-colors">
     <h3 class="center">Thematic Images</h3>
-    <div class="center">
-      <div id="vintage-images" class="images vintage" hidden="true">
-        <!-- Remote Images -->
-        <img id="vintage-image-1" src="https://source.unsplash.com/400x400/?vintage"
-          alt="Image from source.unsplash.com" width="400">
-        <img id="vintage-image-2" src="https://source.unsplash.com/400x400/?antiquated"
-          alt="Image from source.unsplash.com" width="400">
-      </div>
-      <div id="contemporary-images" class="images contemporary">
-        <!-- Remote Images -->
-        <img src="https://source.unsplash.com/400x400/?contemporary" alt="Image from source.unsplash.com" width="400">
-        <img src="https://source.unsplash.com/400x400/?modern" alt="Image from source.unsplash.com" width="400">
-      </div>
-      <p>Images from <a href="https://source.unsplash.com" target="_blank">source.unsplash.com</a></p>
+
+    <div id="vintage-images" class="images vintage" hidden="true">
+      <!-- Remote Images -->
+      <img id="vintage-image-1" src="https://source.unsplash.com/400x400/?vintage" alt="Image from source.unsplash.com"
+        width="400">
+      <img id="vintage-image-2" src="https://source.unsplash.com/400x400/?antiquated"
+        alt="Image from source.unsplash.com" width="400">
     </div>
+    <div id="contemporary-images" class="images contemporary">
+      <!-- Remote Images -->
+      <img src="https://source.unsplash.com/400x400/?contemporary" alt="Image from source.unsplash.com" width="400">
+      <img src="https://source.unsplash.com/400x400/?modern" alt="Image from source.unsplash.com" width="400">
+    </div>
+
+    <p class="center">Images from <a href="https://source.unsplash.com" target="_blank">source.unsplash.com</a></p>
   </section>
 
-  <footer class="secondary-colors">
-
-    <footer class="secondary-colors">
-      Element text was taken from <a
-        href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element#content_sectioning">developer.mozilla.org</a>
-      <br>
-      Created by: Leif Guillermo
-      <br>
-      <address>Albuquerque, NM</address>
-    </footer>
+  <footer class="secondary-colors center">
+    Element text was taken from <a
+      href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element#content_sectioning">developer.mozilla.org</a>
+    <br>
+    Created by: Leif Guillermo
+    <br>
+    <address>Albuquerque, NM</address>
+  </footer>
 
 </body>
 

@@ -76,10 +76,28 @@ h2 {
 }
 
 #vintage-livestream {
-  border-radius: 50%;
+  width: 400px;
+  height: 400px;
 }
 
 #vintage-image-1,
 #vintage-image-2 {
   border-radius: 50%;
+}
+
+#livestream-outer,
+#livestream-inner {
+  height: 400px;
+  width: 400px;
+}
+
+#livestream-outer {
+  display: inline-block;
+  position: relative;
+}
+
+#livestream-inner {
+  overflow: hidden;
+  border-radius: 50%;
+  position: absolute;
 }

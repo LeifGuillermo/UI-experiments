@@ -20,8 +20,6 @@ body {
   right: 0;
   width: 363px;
   border: 1px solid #000;
-  /* border-radius: 8px; */
-  /* box-shadow: -3px 3px 12px black; */
   background-color: var(--bg-color);
 }
 
@@ -35,9 +33,22 @@ body {
   margin: 0px 0px 10px 20px;
 }
 
+#vintage-images,
+#contemporary-images {
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+  width: 51%;
+}
+
 .center {
   margin: auto;
-  width: 50%;
+  width: 100%;
   padding: 10px;
   text-align: center;
+}
+
+.flex-images {
+  display: flex;
+  justify-content: space-between;
 }

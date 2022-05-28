@@ -45,6 +45,16 @@ body {
 h1 {
   font-family: 'Ultra', 'Monoton', 'Modak-Regular';
   line-height: 1.7em;
+
+  position: relative;
+  text-align: center;
+  margin: 0.625rem;
+}
+
+h2 {
+  position: relative;
+  text-align: center;
+  margin: 0.625rem;
 }
 
 #theme-selection-section {
@@ -65,12 +75,11 @@ h1 {
   text-align: center;
 }
 
-.livestreams {
-  position: relative;
+#vintage-livestream {
+  border-radius: 50%;
 }
 
-.livestream {
-  position: absolute;
-  border: 1px;
+#vintage-image-1,
+#vintage-image-2 {
   border-radius: 50%;
 }

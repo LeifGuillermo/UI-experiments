@@ -29,7 +29,7 @@
   </header>
 
   <section id="theme-selection-section" class="themedSection movable">
-    <h2 class="center">Select a theme</h2>
+    <h2 class="select-theme-title">Select a theme</h2>
     <div id="theme-selection-options">
       <input type="radio" id="contemporaryRadioButton" name="selectStyleRadioButton" value="contemporary"
         checked=true />
@@ -40,18 +40,26 @@
     </div>
   </section>
 
-  <section>
-    <article>The article HTML element represents a self-contained composition in a document, page, application, or site,
-      which is intended to be independently distributable or reusable (e.g., in syndication). Examples include: a forum
-      post, a magazine or newspaper article, or a blog entry, a product card, a user-submitted comment, an interactive
-      widget or gadget, or any other independent item of content.</article>
-  </section>
 
-  <aside class="card"> The aside HTML element represents a portion of a document whose content is only indirectly
-    related to the
-    document's main content. Asides are frequently presented as sidebars or call-out boxes.</aside>
+  <aside>
+    <div class="livestreams">
+      <div class="livestream contemporary center">
+        <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/-5KAN9_CzSA"
+          title="YouTube video player" frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+      </div>
 
-  <section id="image-section" class="themedSection center card">
+      <div class="livestream vintage center" hidden="true">
+        <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/2gO1v2GPMFk"
+          title="YouTube video player" frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+      </div>
+    </div>
+  </aside>
+
+  <div id="image-section" class="themedSection center card">
     <h2 hidden="true">Thematic Images</h2>
     <div id="vintage-images" class="images vintage" hidden="true">
       <!-- Remote Images -->
@@ -64,7 +72,7 @@
       <img src="https://source.unsplash.com/400x400/?modern" alt="Image from source.unsplash.com" width="400">
     </div>
     <p>Images from <a href="https://source.unsplash.com" target="_blank">source.unsplash.com</a></p>
-  </section>
+  </div>
 
   <section id="info-section" class="themedSection">
     <h2>What is a section?</h2>

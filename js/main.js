@@ -18,13 +18,14 @@ function listenForThemeToggle() {
 }
 
 function updatePageOnThemeSelection(buttonValue) {
-	handleImagesChange(buttonValue);
+	changeImages(buttonValue);
 	changeStyleHref(buttonValue);
 	changePageHeaderText(buttonValue);
+	changeLiveStream(buttonValue);
 }
 
-function handleImagesChange(buttonValue) {
-	let targetBox = $('.' + buttonValue);
+function changeImages(buttonValue) {
+	const targetBox = $('.' + buttonValue);
 	$('.images').not(targetBox).hide();
 	$(targetBox).show();
 }
@@ -37,6 +38,12 @@ function changeStyleHref(stylesheet) {
 
 function changePageHeaderText(buttonValue) {
 	document.getElementById('pageHeaderTheme').innerText = buttonValue;
+}
+
+function changeLiveStream(buttonValue) {
+	const targetBox = $('.' + buttonValue);
+	$('.livestream').not(targetBox).hide();
+	$(targetBox).show();
 }
 
 function makeElementDraggable(element) {

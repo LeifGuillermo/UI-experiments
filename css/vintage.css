@@ -46,3 +46,31 @@ h1 {
   font-family: 'Ultra', 'Monoton', 'Modak-Regular';
   line-height: 1.7em;
 }
+
+#theme-selection-section {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 363px;
+  border: 1px solid #000;
+  border-radius: 8px;
+  box-shadow: -3px 3px 12px black;
+  background-color: var(--bg-color);
+}
+
+.select-theme-title {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  text-align: center;
+}
+
+.livestreams {
+  position: relative;
+}
+
+.livestream {
+  position: absolute;
+  border: 1px;
+  border-radius: 50%;
+}

@@ -108,3 +108,10 @@ a:visited {
   background-color: var(--onyx);
   color: var(--ivory);
 }
+
+#contemporary-images {
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+  width: 51%;
+}

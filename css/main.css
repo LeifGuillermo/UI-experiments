@@ -33,14 +33,6 @@ body {
   margin: 0px 0px 10px 20px;
 }
 
-#vintage-images,
-#contemporary-images {
-  display: flex;
-  justify-content: space-around;
-  margin: auto;
-  width: 51%;
-}
-
 .center {
   margin: auto;
   width: 100%;

@@ -42,6 +42,12 @@ body {
   line-height: 1.7em;
 }
 
+.background {
+  background: var(--ebony);
+  border-radius: 50%;
+
+}
+
 h1 {
   font-family: 'Ultra', 'Monoton', 'Modak-Regular';
   line-height: 1.7em;
@@ -80,9 +86,17 @@ h2 {
   height: 400px;
 }
 
+#vintage-images {
+  display: flex !important;
+  justify-content: space-around;
+  margin: auto;
+  width: 51%;
+}
+
 #vintage-image-1,
 #vintage-image-2 {
   border-radius: 50%;
+  border: solid black 3px;
 }
 
 #livestream-outer,

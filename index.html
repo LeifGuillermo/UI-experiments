@@ -17,76 +17,83 @@
 
 <body>
 
-  <header>
-    <span class="hero">
-      <div class="hero-content">
-        <div class="hero-title">
-          <h1>The theme is: <span id="pageHeaderTheme">contemporary</span></h1>
+  <div class="background">
+
+    <header>
+      <span class="hero">
+        <div class="hero-content">
+          <div class="hero-title">
+            <h1>The theme is: <span id="pageHeaderTheme">contemporary</span></h1>
+          </div>
+          <h2 class="hero-subtitle">Use the radio buttons to toggle different themes.</h2>
         </div>
-        <h2 class="hero-subtitle">Use the radio buttons to toggle different themes.</h2>
+      </span>
+    </header>
+
+    <section id="theme-selection-section" class="themedSection movable">
+      <h2 class="select-theme-title">Select a theme</h2>
+      <div id="theme-selection-options">
+        <input type="radio" id="contemporaryRadioButton" name="selectStyleRadioButton" value="contemporary"
+          checked=true />
+        <label for="contemporaryRadioButton">Contemporary</label>
+        <br>
+        <input type="radio" id="vintageRadioButton" name="selectStyleRadioButton" value="vintage" />
+        <label for="vintageRadioButton">Vintage</label>
       </div>
-    </span>
-  </header>
-
-  <section id="theme-selection-section" class="themedSection movable">
-    <h2 class="select-theme-title">Select a theme</h2>
-    <div id="theme-selection-options">
-      <input type="radio" id="contemporaryRadioButton" name="selectStyleRadioButton" value="contemporary"
-        checked=true />
-      <label for="contemporaryRadioButton">Contemporary</label>
-      <br>
-      <input type="radio" id="vintageRadioButton" name="selectStyleRadioButton" value="vintage" />
-      <label for="vintageRadioButton">Vintage</label>
-    </div>
-  </section>
+    </section>
 
 
-  <aside class="secondary-colors">
-    <h3 class="center">Youtube Livestream</h3>
-    <div class="livestream contemporary center">
-      <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/-5KAN9_CzSA"
-        title="YouTube video player" frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen></iframe>
-    </div>
-
-    <div id="livestream-outer" class="livestream vintage center" hidden="true">
-      <div id="livestream-inner">
-        <iframe id="vintage-livestream" width="560" height="315"
-          src="https://www.youtube-nocookie.com/embed/2gO1v2GPMFk" title="YouTube video player" frameborder="0"
+    <aside class="secondary-colors">
+      <h3 class="center">Youtube Livestream</h3>
+      <div class="livestream contemporary center">
+        <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/-5KAN9_CzSA"
+          title="YouTube video player" frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen></iframe>
       </div>
-    </div>
-  </aside>
 
-  <section id="image-section" class="themedSection secondary-colors">
-    <h3 class="center">Thematic Images</h3>
+      <div id="livestream-outer" class="livestream vintage center" hidden="true">
+        <div id="livestream-inner">
+          <iframe id="vintage-livestream" width="560" height="315"
+            src="https://www.youtube-nocookie.com/embed/2gO1v2GPMFk" title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+        </div>
+      </div>
+    </aside>
 
-    <div id="vintage-images" class="images vintage" hidden="true">
-      <!-- Remote Images -->
-      <img id="vintage-image-1" src="https://source.unsplash.com/400x400/?vintage" alt="Image from source.unsplash.com"
-        width="400">
-      <img id="vintage-image-2" src="https://source.unsplash.com/400x400/?antiquated"
-        alt="Image from source.unsplash.com" width="400">
-    </div>
-    <div id="contemporary-images" class="images contemporary">
-      <!-- Remote Images -->
-      <img src="https://source.unsplash.com/400x400/?contemporary" alt="Image from source.unsplash.com" width="400">
-      <img src="https://source.unsplash.com/400x400/?modern" alt="Image from source.unsplash.com" width="400">
-    </div>
+    <section id="image-section" class="themedSection secondary-colors">
+      <h3 class="center">Thematic Images</h3>
 
-    <p class="center">Images from <a href="https://source.unsplash.com" target="_blank">source.unsplash.com</a></p>
-  </section>
+      <div id="contemporary-images" class="images contemporary">
+        <!-- Remote Images -->
+        <img src="https://source.unsplash.com/400x400/?contemporary" alt="Image from source.unsplash.com" width="400">
+        <img src="https://source.unsplash.com/400x400/?modern" alt="Image from source.unsplash.com" width="400">
+      </div>
 
-  <footer class="secondary-colors center">
-    Element text was taken from <a
-      href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element#content_sectioning">developer.mozilla.org</a>
-    <br>
-    Created by: Leif Guillermo
-    <br>
-    <address>Albuquerque, NM</address>
-  </footer>
+      <div id="vintage-images" class="vintage images" hidden="true">
+        <!-- Remote Images -->
+        <img id="vintage-image-1" src="https://source.unsplash.com/400x400/?vintage"
+          alt="Image from source.unsplash.com" width="400">
+        <img id="vintage-image-2" src="https://source.unsplash.com/400x400/?antiquated"
+          alt="Image from source.unsplash.com" width="400">
+      </div>
+
+
+
+      <p class="center">Images from <a href="https://source.unsplash.com" target="_blank">source.unsplash.com</a></p>
+    </section>
+
+    <footer class="secondary-colors center">
+      Element text was taken from <a
+        href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element#content_sectioning">developer.mozilla.org</a>
+      <br>
+      Created by: Leif Guillermo
+      <br>
+      <address>Albuquerque, NM</address>
+    </footer>
+
+  </div>
 
 </body>
 
